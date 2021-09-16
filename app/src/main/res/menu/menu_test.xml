@@ -1,0 +1,21 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.myapplication.MainActivity">
+    <item
+        android:id="@+id/resetInformations"
+        android:orderInCategory="100"
+        android:title="resetInformation"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/telephone"
+        android:orderInCategory="100"
+        android:title="telephone"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/web"
+        android:orderInCategory="100"
+        android:title="web"
+        app:showAsAction="ifRoom" />
+
+</menu>
